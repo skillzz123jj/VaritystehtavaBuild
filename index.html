@@ -94,11 +94,9 @@
       //  unityShowBanner('WebGL builds are not supported on mobile devices.');
     } else {
       // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-      var meta = document.createElement('meta');
-      meta.name = 'viewport';
-      meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes, shrink-to-fit=yes';
-      canvas.style.width = "960px";
-      canvas.style.height = "600px";
+
+      canvas.style.width = "1920px";
+      canvas.style.height = "1080px";
     }
 
     loadingBar.style.display = "block";
