@@ -82,18 +82,11 @@
 
       var meta = document.createElement('meta');
       meta.name = 'viewport';
-      if (window.innerHeight > window.innerWidth) {
-        // canvas.style.width = "320px"; // Adjust the width as needed
-        // canvas.style.height = "480px"; // Adjust the height as needed
-        meta.content = 'height=device-height,  initial-scale=1.0, user-scalable=yes, shrink-to-fit=yes';
-      }
-      //meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes, shrink-to-fit=yes';
+      meta.content = 'height=device-height, initial-scale=1.0, user-scalable=yes, shrink-to-fit=yes';
       document.getElementsByTagName('head')[0].appendChild(meta);
       container.className = "unity-mobile";
       canvas.className = "unity-mobile";
 
-
-      //width=device-width, 
       // if (window.innerHeight > window.innerWidth) {
       //   canvas.style.width = "320px"; // Adjust the width as needed
       //   canvas.style.height = "480px"; // Adjust the height as needed
