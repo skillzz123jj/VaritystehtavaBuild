@@ -87,6 +87,11 @@
       container.className = "unity-mobile";
       canvas.className = "unity-mobile";
 
+      if (window.innerHeight > window.innerWidth) {
+        canvas.style.width = "320px"; // Adjust the width as needed
+        canvas.style.height = "480px"; // Adjust the height as needed
+      }
+
       // To lower canvas resolution on mobile devices to gain some
       // performance, uncomment the following line:
       // config.devicePixelRatio = 1;
