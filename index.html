@@ -87,15 +87,6 @@
       container.className = "unity-mobile";
       canvas.className = "unity-mobile";
 
-      var unityContainer = document.getElementById('unity-container');
-
-      if (window.innerWidth < window.innerHeight) {
-        unityContainer.style.position = 'absolute';
-      } else {
-        // Reset to default or any other position value you want
-        unityContainer.style.position = 'relative';
-      }
-
       // To lower canvas resolution on mobile devices to gain some
       // performance, uncomment the following line:
       // config.devicePixelRatio = 1;
