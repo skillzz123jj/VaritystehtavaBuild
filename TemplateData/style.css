@@ -18,13 +18,21 @@ body {
     height: auto
 }
 
+
+@media (orientation: portrait) {
+    #unity-container.unity-mobile {
+        height: auto;
+
+    }
+}
+
 #unity-canvas {
     background: #231F20
 }
 
 .unity-mobile #unity-canvas {
     width: 100%;
-    height: auto
+    height: 100%
 }
 
 #unity-loading-bar {
