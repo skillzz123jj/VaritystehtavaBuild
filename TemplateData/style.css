@@ -16,7 +16,7 @@ body {
 #unity-container.unity-mobile {
     width: auto;
     /*100%;*/
-    height: auto;
+    height: 100%;
 }
 
 #unity-canvas {
@@ -25,7 +25,7 @@ body {
 
 .unity-mobile #unity-canvas {
     width: auto;
-    height: auto;
+    height: 100%;
 }
 
 #unity-loading-bar {
